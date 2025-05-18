@@ -1,1 +1,36 @@
+ #langchain
+ langchain
+ langchain-core
+ langchain-community
  
+
+#openai
+langchain-openai
+openai
+#google-gemni
+# langchain-google-genai
+google-generativeai
+
+#anthropic
+langchain-anthropic
+anthropic
+
+
+#huggingface integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+#envierment mangement
+python-dotenv
+
+#machine learning untilities
+pandas
+numpy
+scipy
+scikit-learn
+
+#data visualization
+matplotlib
+seaborn
+
