@@ -21,7 +21,7 @@ length_input = st.selectbox("select research length",["select...",
 
 
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDJz-jcQGuSM8CnxuD3wgqEekkwEMxei08"
+os.environ["GOOGLE_API_KEY"] = "api key here "
 
 # Initialize the LangChain Gemini model
 llm = ChatGoogleGenerativeAI(
