@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Please summarize the research title {paper_input} with the following explaination:\n    Explaination style: {style_input}\n    Explaination length: {length_input}\n    \n    1.Mathmatical Details:\n    - include the relevant mathmatical equations and details if  present in the paper.\n    - Explain the mathmatical concept in simple terms. intutive code snippets where applicable.\n    \n    2.Analogies:\n    - Use related analogies to explain the research concept in a way that is easy to understand.\n    if the certain information is not available in the paper, respond with: \"Insufficient information available\" \n    instead of guessing.\n    \n    Ensure the summary is concise and to the point, alinged with provided style and length.    \n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

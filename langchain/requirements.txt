@@ -24,6 +24,9 @@ huggingface-hub
 #envierment mangement
 python-dotenv
 
+#chainlit
+chainlit
+
 #machine learning untilities
 pandas
 numpy
