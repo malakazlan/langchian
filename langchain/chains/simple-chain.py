@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDJz-jcQGuSM8CnxuD3wgqEekkwEMxei08"
+os.environ["GOOGLE_API_KEY"] = "api key "
 
 llm = ChatGoogleGenerativeAI(
     model = "models/gemini-2.0-flash-001",
