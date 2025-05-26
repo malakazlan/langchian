@@ -13,19 +13,16 @@ llm = ChatGoogleGenerativeAI(
 
 model = llm
 
-template1 = PromptTemplate(
+template= PromptTemplate(
     template = "generate a short story on  {topic}",
     input_variables = ["topic"]
 )
 
-template2 = PromptTemplate(
-    template = "Now tell me the moral of the story  {topic}",
-    input_variables = ["topic"]
-)
+
 
 parser = StrOutputParser()
 
-chain = template1 | model | parser | template2 | model |parser
+chain = template | model | parser 
 
 result = chain.invoke({"topic": "greedy dog"})
 
