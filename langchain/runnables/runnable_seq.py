@@ -4,7 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableSequence
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDJz-jcQGuSM8CnxuD3wgqEekkwEMxei08"
+os.environ["GOOGLE_API_KEY"] = "api key here "
 
 model = GoogleGenerativeAI(
     model = "models/gemini-2.0-flash-001",
