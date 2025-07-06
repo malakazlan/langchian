@@ -39,3 +39,4 @@ intial = report_genrator.invoke({'topic':'AI'})
 result= (final_chain.invoke({'topic':'AI'}))
 print('word_count initial report',len(intial.split()))
 print('word_count after branch',len(result.split()), result)
+
