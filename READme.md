@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
 </p>
 
-<h1 align="center">🦜️ LangChain Project: Hands-On AI Workflows with Python</h1>
+<h1 align="center">🦜️ LangChain : Hands-On AI Workflows with Python</h1>
 
 <p align="center">
   <b>Master LangChain's core concepts with real code, projects, and explanations.<br>
